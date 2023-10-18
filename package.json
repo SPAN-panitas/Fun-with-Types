@@ -1,0 +1,24 @@
+{
+  "name": "fun-with-types",
+  "version": "1.0.0",
+  "description": "Use `npx tsx <script>` to run",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SPAN-panitas/Fun-with-Types.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SPAN-panitas/Fun-with-Types/issues"
+  },
+  "homepage": "https://github.com/SPAN-panitas/Fun-with-Types#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
