@@ -6,10 +6,8 @@ function move(direction) {
     // some imaginary code that makes the thing move!
   }
 
-  move("backward")
+move("backward") // ✓
+move("forward") // ✓
 
-  move("forward")
-
-  move("left")
-
-  move("right")
+move("left")  // x -> type error
+move("right") // x -> type error

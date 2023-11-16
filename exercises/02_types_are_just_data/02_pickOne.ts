@@ -5,9 +5,9 @@
  */
 
 function pickOne(a, b) {
-    return Math.random() > 0.5 ? a : b;
-  }
+  return Math.random() > 0.5 ? a : b;
+}
 
-  const res1 = pickOne(true, false);
+const res1 = pickOne(true, false);
 
-  const res2 = pickOne(2, "some string");
+const res2 = pickOne(2, "some string");

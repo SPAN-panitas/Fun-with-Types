@@ -6,13 +6,13 @@
  */
 
 function merge(a, b) {
-    return { ...a, ...b };
-  }
+  return { ...a, ...b };
+}
 
-  const merge1 = merge({ name: "Bob" }, { age: 42 });
+const merge1 = merge({ name: "Bob" }, { age: 42 });
 
-  const merge2 = merge({ greeting: "Hello" }, {});
+const merge2 = merge({ greeting: "Hello" }, {});
 
-  const merge3 = merge({}, { greeting: "Hello" });
+const merge3 = merge({}, { greeting: "Hello" });
 
-  const merge4 = merge({ a: 1, b: 2 }, { c: 3, d: 4 });
+const merge4 = merge({ a: 1, b: 2 }, { c: 3, d: 4 });

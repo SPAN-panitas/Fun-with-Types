@@ -3,13 +3,13 @@
  * Make it generic! 
  */
 
-  let debouncedFn
+let debouncedFn
 
-  debouncedFn = Object.assign(() => {}, { cancel: () => {} });
+debouncedFn = Object.assign(() => {}, { cancel: () => {} });
 
-  debouncedFn();
+debouncedFn();
 
-  debouncedFn.cancel();
+debouncedFn.cancel();
 
-  // ❌ `unknownMethod` does not exist on `debouncedFn`.
-  debouncedFn.unknownMethod();
+// ❌ `unknownMethod` does not exist on `debouncedFn`.
+debouncedFn.unknownMethod();

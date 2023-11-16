@@ -7,6 +7,6 @@ function stringify(input) {
     return `${input}`;
   }
 
-  stringify("a string");   
-  stringify(12);           
-  stringify(true);         
+stringify("a string");   
+stringify(12);           
+stringify(true);         
