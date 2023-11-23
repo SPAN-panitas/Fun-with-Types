@@ -10,7 +10,10 @@
     type Length<Tuple extends any[]> = TODO
   
     type res1 = Length<[]>;
+    // 0
   
     type res2 = Length<[any]>;
+    // 1
   
     type res3 = Length<[any, any]>;
+    // 2

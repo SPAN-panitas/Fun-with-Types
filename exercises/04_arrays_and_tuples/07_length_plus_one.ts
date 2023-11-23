@@ -9,7 +9,10 @@
     type LengthPlusOne<Tuple extends any[]> = TODO
   
     type res1 = LengthPlusOne<[]>;
+    // 1
   
     type res2 = LengthPlusOne<[any]>;
+    // 2
   
     type res3 = LengthPlusOne<[any, any]>;
+    // 3

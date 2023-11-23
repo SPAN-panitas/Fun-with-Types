@@ -12,4 +12,6 @@
     sendMail(["123 5th Ave"]);
     sendMail(["75 rue Quincampoix", "75003 Paris"]);
 
+    sendMail([]);
+    //       ^ ❌ `[]` isn't assignable to `NonEmptyArray<string>`
   
